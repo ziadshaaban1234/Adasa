@@ -170,7 +170,7 @@
           >ابقى على اطلاع
         </h3>
         <p class="text-sm text-neutral-500 mb-4">اشترك للحصول على أحدث المقالات والتحديثات.</p>
-        <form class="space-y-3">
+        <form class="space-y-3" (submit)="$event.preventDefault()">
           <div class="relative">
             <input
               placeholder="أدخل بريدك الإلكتروني"
